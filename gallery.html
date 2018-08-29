@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+</head>
+<body>
+    <ul id="imagegallery" >
+        <li>
+            <a href="images/kookaburra.jpg" alt="kookaburra" title="Kookaburra sitting in the old gum tree" onclick="showPic(this); return false;">Kookaburra</a>
+        </li>
+        <li>
+            <a href="images/lizard.jpg" alt="lizard" title="lizard" onclick="showPic(this); return false;">Lizard</a>
+        </li>
+        <li>
+            <a href="images/white-bird.jpg" alt="white bird" title="" onclick="showPic(this); return false;">White Bird</a>
+        </li>
+        <li>
+            <a href="images/yellow-crested-bird.jpg" alt="yellow crested bird" title="yellow crested bird" onclick="showPic(this); return false;">yellow crested bird</a>
+        </li>
+    </ul>
+
+    <img src="images/placeholder.gif" alt="my image gallery" id="placeholder">
+
+    <p id="description">Choose an image.</p>
+
+    <script src="dist/showPic.js"></script>
+</body>
+</html>
